@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Desktop\\Willi\\Universidad\\Programación-movil\\Farmacia\\Farmacia.Android\\Farmacia.Android.csproj": {}
+    "C:\\Movil\\Farmacia\\Farmacia.Android\\Farmacia.Android.csproj": {}
   },
   "projects": {
-    "D:\\Desktop\\Willi\\Universidad\\Programación-movil\\Farmacia\\Farmacia.Android\\Farmacia.Android.csproj": {
+    "C:\\Movil\\Farmacia\\Farmacia.Android\\Farmacia.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desktop\\Willi\\Universidad\\Programación-movil\\Farmacia\\Farmacia.Android\\Farmacia.Android.csproj",
+        "projectUniqueName": "C:\\Movil\\Farmacia\\Farmacia.Android\\Farmacia.Android.csproj",
         "projectName": "Farmacia.Android",
-        "projectPath": "D:\\Desktop\\Willi\\Universidad\\Programación-movil\\Farmacia\\Farmacia.Android\\Farmacia.Android.csproj",
-        "packagesPath": "C:\\Users\\willintong.lopez\\.nuget\\packages\\",
-        "outputPath": "D:\\Desktop\\Willi\\Universidad\\Programación-movil\\Farmacia\\Farmacia.Android\\obj\\",
+        "projectPath": "C:\\Movil\\Farmacia\\Farmacia.Android\\Farmacia.Android.csproj",
+        "packagesPath": "C:\\Users\\andrquqn\\.nuget\\packages\\",
+        "outputPath": "C:\\Movil\\Farmacia\\Farmacia.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\willintong.lopez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\andrquqn\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,11 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "D:\\Desktop\\Willi\\Universidad\\Programación-movil\\Farmacia\\Farmacia\\Farmacia.csproj": {
-                "projectPath": "D:\\Desktop\\Willi\\Universidad\\Programación-movil\\Farmacia\\Farmacia\\Farmacia.csproj"
+              "C:\\Movil\\Farmacia\\Farmacia.Domain\\Farmacia.Domain.csproj": {
+                "projectPath": "C:\\Movil\\Farmacia\\Farmacia.Domain\\Farmacia.Domain.csproj"
+              },
+              "C:\\Movil\\Farmacia\\Farmacia\\Farmacia.csproj": {
+                "projectPath": "C:\\Movil\\Farmacia\\Farmacia\\Farmacia.csproj"
               }
             }
           }
@@ -58,21 +61,21 @@
         }
       }
     },
-    "D:\\Desktop\\Willi\\Universidad\\Programación-movil\\Farmacia\\Farmacia\\Farmacia.csproj": {
+    "C:\\Movil\\Farmacia\\Farmacia.Domain\\Farmacia.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desktop\\Willi\\Universidad\\Programación-movil\\Farmacia\\Farmacia\\Farmacia.csproj",
-        "projectName": "Farmacia",
-        "projectPath": "D:\\Desktop\\Willi\\Universidad\\Programación-movil\\Farmacia\\Farmacia\\Farmacia.csproj",
-        "packagesPath": "C:\\Users\\willintong.lopez\\.nuget\\packages\\",
-        "outputPath": "D:\\Desktop\\Willi\\Universidad\\Programación-movil\\Farmacia\\Farmacia\\obj\\",
+        "projectUniqueName": "C:\\Movil\\Farmacia\\Farmacia.Domain\\Farmacia.Domain.csproj",
+        "projectName": "Farmacia.Domain",
+        "projectPath": "C:\\Movil\\Farmacia\\Farmacia.Domain\\Farmacia.Domain.csproj",
+        "packagesPath": "C:\\Users\\andrquqn\\.nuget\\packages\\",
+        "outputPath": "C:\\Movil\\Farmacia\\Farmacia.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\willintong.lopez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\andrquqn\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -102,6 +105,74 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Movil\\Farmacia\\Farmacia\\Farmacia.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Movil\\Farmacia\\Farmacia\\Farmacia.csproj",
+        "projectName": "Farmacia",
+        "projectPath": "C:\\Movil\\Farmacia\\Farmacia\\Farmacia.csproj",
+        "packagesPath": "C:\\Users\\andrquqn\\.nuget\\packages\\",
+        "outputPath": "C:\\Movil\\Farmacia\\Farmacia\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\andrquqn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Movil\\Farmacia\\Farmacia.Domain\\Farmacia.Domain.csproj": {
+                "projectPath": "C:\\Movil\\Farmacia\\Farmacia.Domain\\Farmacia.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

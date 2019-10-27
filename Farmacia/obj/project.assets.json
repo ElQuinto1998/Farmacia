@@ -26,6 +26,15 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "Newtonsoft.Json/12.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -62,6 +71,16 @@
         "build": {
           "build/Xamarin.Forms.props": {},
           "build/Xamarin.Forms.targets": {}
+        }
+      },
+      "Farmacia.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Farmacia.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Farmacia.Domain.dll": {}
         }
       }
     }
@@ -208,6 +227,36 @@
         "lib/netstandard1.0/_._",
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/12.0.2": {
+      "sha512": "rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec"
       ]
     },
     "System.Numerics.Vectors/4.5.0": {
@@ -545,35 +594,42 @@
         "xamarin.forms.4.2.0.709249.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
+    },
+    "Farmacia.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Farmacia.Domain/Farmacia.Domain.csproj",
+      "msbuildProject": "../Farmacia.Domain/Farmacia.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "Farmacia.Domain >= 1.0.0",
       "NETStandard.Library >= 2.0.3",
+      "Newtonsoft.Json >= 12.0.2",
       "Xamarin.Essentials >= 1.2.0",
       "Xamarin.Forms >= 4.2.0.709249"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\willintong.lopez\\.nuget\\packages\\": {},
+    "C:\\Users\\andrquqn\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Desktop\\Willi\\Universidad\\Programación-movil\\Farmacia\\Farmacia\\Farmacia.csproj",
+      "projectUniqueName": "C:\\Movil\\Farmacia\\Farmacia\\Farmacia.csproj",
       "projectName": "Farmacia",
-      "projectPath": "D:\\Desktop\\Willi\\Universidad\\Programación-movil\\Farmacia\\Farmacia\\Farmacia.csproj",
-      "packagesPath": "C:\\Users\\willintong.lopez\\.nuget\\packages\\",
-      "outputPath": "D:\\Desktop\\Willi\\Universidad\\Programación-movil\\Farmacia\\Farmacia\\obj\\",
+      "projectPath": "C:\\Movil\\Farmacia\\Farmacia\\Farmacia.csproj",
+      "packagesPath": "C:\\Users\\andrquqn\\.nuget\\packages\\",
+      "outputPath": "C:\\Movil\\Farmacia\\Farmacia\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\willintong.lopez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\andrquqn\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -586,7 +642,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Movil\\Farmacia\\Farmacia.Domain\\Farmacia.Domain.csproj": {
+              "projectPath": "C:\\Movil\\Farmacia\\Farmacia.Domain\\Farmacia.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -603,6 +663,10 @@
             "target": "Package",
             "version": "[2.0.3, )",
             "autoReferenced": true
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[12.0.2, )"
           },
           "Xamarin.Essentials": {
             "target": "Package",

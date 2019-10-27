@@ -179,25 +179,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\willintong.lopez\\.nuget\\packages\\": {},
+    "C:\\Users\\andrquqn\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Desktop\\Willi\\Universidad\\Programación-movil\\Farmacia\\Farmacia.Domain\\Farmacia.Domain.csproj",
+      "projectUniqueName": "C:\\Movil\\Farmacia\\Farmacia.Domain\\Farmacia.Domain.csproj",
       "projectName": "Farmacia.Domain",
-      "projectPath": "D:\\Desktop\\Willi\\Universidad\\Programación-movil\\Farmacia\\Farmacia.Domain\\Farmacia.Domain.csproj",
-      "packagesPath": "C:\\Users\\willintong.lopez\\.nuget\\packages\\",
-      "outputPath": "D:\\Desktop\\Willi\\Universidad\\Programación-movil\\Farmacia\\Farmacia.Domain\\obj\\",
+      "projectPath": "C:\\Movil\\Farmacia\\Farmacia.Domain\\Farmacia.Domain.csproj",
+      "packagesPath": "C:\\Users\\andrquqn\\.nuget\\packages\\",
+      "outputPath": "C:\\Movil\\Farmacia\\Farmacia.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\willintong.lopez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\andrquqn\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
