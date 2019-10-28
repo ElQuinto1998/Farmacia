@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Farmacia.Views.DomiciliosPage">
+    <StackLayout>
+        <ListView x:Name="ListaMedicamentos" HasUnevenRows="True" ItemSelected="ListaMedicamentos_ItemSelected">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <StackLayout Orientation="Horizontal" Spacing="10">
+                        <Image Source="medi.png" WidthRequest="100" HeightRequest="80"/>
+                        <StackLayout Orientation="Vertical">
+                            <Label Text="name"/>
+                            <Label Text="{Binding name}" HorizontalOptions="EndAndExpand"/>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Precio"/>
+                                <Label Text="{Binding salePrice}" HorizontalOptions="EndAndExpand"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+        <Entry x:Name="cantidad" Placeholder="Cantidad"/>
+        <Button Text="Continuar" Clicked="Button_Clicked"/>
+    </StackLayout>
+</ContentPage>

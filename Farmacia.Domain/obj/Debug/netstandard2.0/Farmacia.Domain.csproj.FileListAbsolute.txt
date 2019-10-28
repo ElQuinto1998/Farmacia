@@ -1,7 +1,6 @@
 C:\Movil\Farmacia\Farmacia.Domain\bin\Debug\netstandard2.0\Farmacia.Domain.deps.json
 C:\Movil\Farmacia\Farmacia.Domain\bin\Debug\netstandard2.0\Farmacia.Domain.dll
 C:\Movil\Farmacia\Farmacia.Domain\bin\Debug\netstandard2.0\Farmacia.Domain.pdb
-C:\Movil\Farmacia\Farmacia.Domain\obj\Debug\netstandard2.0\Farmacia.Domain.csprojAssemblyReference.cache
 C:\Movil\Farmacia\Farmacia.Domain\obj\Debug\netstandard2.0\Farmacia.Domain.AssemblyInfoInputs.cache
 C:\Movil\Farmacia\Farmacia.Domain\obj\Debug\netstandard2.0\Farmacia.Domain.AssemblyInfo.cs
 C:\Movil\Farmacia\Farmacia.Domain\obj\Debug\netstandard2.0\Farmacia.Domain.dll

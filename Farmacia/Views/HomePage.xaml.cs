@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace Farmacia.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class HomePage : ContentPage
+    public partial class PedidosPage : MasterDetailPage
     {
-        public HomePage()
+        public PedidosPage()
         {
             InitializeComponent();
         }

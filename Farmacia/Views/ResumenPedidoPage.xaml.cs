@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Farmacia.Domain;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,7 +13,7 @@ namespace Farmacia.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ResumenPedidoPage : ContentPage
     {
-        public ResumenPedidoPage()
+        public ResumenPedidoPage(Pedido pedido)
         {
             InitializeComponent();
         }

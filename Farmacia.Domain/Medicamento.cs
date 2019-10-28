@@ -10,5 +10,6 @@ namespace Farmacia.Domain
         public string name { get; set; }
         public int salePrice { get; set; }
         public string image { get; set; }
+        public bool selected { get; set; }
     }
 }

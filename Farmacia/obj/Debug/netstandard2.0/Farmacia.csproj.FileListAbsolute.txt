@@ -7,7 +7,6 @@ C:\Movil\Farmacia\Farmacia\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Movil\Farmacia\Farmacia\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Movil\Farmacia\Farmacia\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
 C:\Movil\Farmacia\Farmacia\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
-C:\Movil\Farmacia\Farmacia\obj\Debug\netstandard2.0\Views\PedidosPage.xaml.g.cs
 C:\Movil\Farmacia\Farmacia\obj\Debug\netstandard2.0\Views\RegisterPage.xaml.g.cs
 C:\Movil\Farmacia\Farmacia\obj\Debug\netstandard2.0\Views\ResumenPedidoPage.xaml.g.cs
 C:\Movil\Farmacia\Farmacia\obj\Debug\netstandard2.0\Farmacia.AssemblyInfoInputs.cache
@@ -18,4 +17,6 @@ C:\Movil\Farmacia\Farmacia\obj\Debug\netstandard2.0\Farmacia.pdb
 C:\Movil\Farmacia\Farmacia\bin\Debug\netstandard2.0\Farmacia.Domain.dll
 C:\Movil\Farmacia\Farmacia\bin\Debug\netstandard2.0\Farmacia.Domain.pdb
 C:\Movil\Farmacia\Farmacia\obj\Debug\netstandard2.0\Farmacia.csproj.CopyComplete
+C:\Movil\Farmacia\Farmacia\obj\Debug\netstandard2.0\Views\DomiciliosPage.xaml.g.cs
+C:\Movil\Farmacia\Farmacia\obj\Debug\netstandard2.0\Views\PedidoPage.xaml.g.cs
 C:\Movil\Farmacia\Farmacia\obj\Debug\netstandard2.0\XamlC.stamp

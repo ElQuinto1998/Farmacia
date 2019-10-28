@@ -8,17 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Farmacia.Views.HomePage.xaml", "Views/HomePage.xaml", typeof(global::Farmacia.Views.HomePage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Farmacia.Views.HomePage.xaml", "Views/HomePage.xaml", typeof(global::Farmacia.Views.PedidosPage))]
 
 namespace Farmacia.Views {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\HomePage.xaml")]
-    public partial class HomePage : global::Xamarin.Forms.ContentPage {
+    public partial class PedidosPage : global::Xamarin.Forms.MasterDetailPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(HomePage));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(PedidosPage));
         }
     }
 }
