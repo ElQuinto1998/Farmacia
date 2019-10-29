@@ -19,10 +19,8 @@ android.support.v7.widget.Toolbar;C:\Movil\Farmacia\Farmacia.Android\obj\Debug\9
 android.support.v7.widget.Toolbar;obj\Debug\90\res\layout\toolbar.xml
 background;obj\Debug\90\res\mipmap-anydpi-v26\icon.xml
 background;obj\Debug\90\res\mipmap-anydpi-v26\icon_round.xml
-bitmap;obj\Debug\90\res\drawable\splash.xml
 bitmap;obj\Debug\90\res\drawable\splashscreen.xml
 cache-path;C:\Movil\Farmacia\Farmacia.Android\obj\Debug\90\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
-color;obj\Debug\90\res\drawable\splash.xml
 color;obj\Debug\90\res\drawable\splashscreen.xml
 color;obj\Debug\90\res\values\colors.xml
 external-cache-path;C:\Movil\Farmacia\Farmacia.Android\obj\Debug\90\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
@@ -31,10 +29,8 @@ foreground;obj\Debug\90\res\mipmap-anydpi-v26\icon.xml
 foreground;obj\Debug\90\res\mipmap-anydpi-v26\icon_round.xml
 FrameLayout;C:\Movil\Farmacia\Farmacia.Android\obj\Debug\90\lp\39\jl\res\layout\bottomtablayout.xml
 item;C:\Movil\Farmacia\Farmacia.Android\obj\Debug\90\lp\39\jl\res\values\styles.xml
-item;obj\Debug\90\res\drawable\splash.xml
 item;obj\Debug\90\res\drawable\splashscreen.xml
 item;obj\Debug\90\res\values\styles.xml
-layer-list;obj\Debug\90\res\drawable\splash.xml
 layer-list;obj\Debug\90\res\drawable\splashscreen.xml
 LinearLayout;C:\Movil\Farmacia\Farmacia.Android\obj\Debug\90\lp\39\jl\res\layout\bottomtablayout.xml
 paths;C:\Movil\Farmacia\Farmacia.Android\obj\Debug\90\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml

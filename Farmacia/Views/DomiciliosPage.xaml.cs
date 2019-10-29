@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -84,12 +84,12 @@ namespace Farmacia.Views
 
         private async void Button_Clicked(object sender, EventArgs e)
         {
-            pedido.userEmail = "correo@gmail.com";
+            pedido.userEmail = await SecureStorage.GetAsync("userEmail");
             pedido.items = itemPedidos;
 
             if(pedido.items.Count == 0)
             {
-                await DisplayAlert("Ops!", "No has seleccionado medicamento", "Aceptar");
+                await DisplayAlert("Ops!", "No has seleccionado ningun medicamento", "Aceptar");
             }
             else
             {

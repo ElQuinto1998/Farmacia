@@ -5801,16 +5801,19 @@ namespace Farmacia.Droid
 			public const int notify_panel_notification_icon_bg = 2131165297;
 			
 			// aapt resource value: 0x7F070072
-			public const int splash = 2131165298;
+			public const int pedi = 2131165298;
 			
 			// aapt resource value: 0x7F070073
-			public const int SplashScreen = 2131165299;
+			public const int splash = 2131165299;
 			
 			// aapt resource value: 0x7F070074
-			public const int tooltip_frame_dark = 2131165300;
+			public const int SplashScreen = 2131165300;
 			
 			// aapt resource value: 0x7F070075
-			public const int tooltip_frame_light = 2131165301;
+			public const int tooltip_frame_dark = 2131165301;
+			
+			// aapt resource value: 0x7F070076
+			public const int tooltip_frame_light = 2131165302;
 			
 			static Drawable()
 			{

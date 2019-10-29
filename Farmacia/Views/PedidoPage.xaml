@@ -4,12 +4,22 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="Farmacia.Views.PedidoPage">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Pedido"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+             x:Class="Farmacia.Views.PedidoPage"
+             Title="Mis pedidos">
+    <ListView x:Name="pedidos" HasUnevenRows="True">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <StackLayout Orientation="Horizontal" Padding="5">
+                        <StackLayout Orientation="Vertical">
+                            <Label Text="{Binding dateSolicitud, StringFormat='Fecha: {0:dd/MM/yyyy}'}" Font="18"></Label>
+                            <Label Text="{Binding state, StringFormat='Estado: {0}'}" TextColor="Gray"></Label>
+                            <Label Text="{Binding total, StringFormat='Total: ${0}'}" TextColor="Red"></Label>
+                        </StackLayout>
+                        <Image Source="pedi.png" HeightRequest="30" WidthRequest="50" HorizontalOptions="EndAndExpand"></Image>
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
 </ContentPage>

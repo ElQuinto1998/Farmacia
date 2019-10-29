@@ -27,9 +27,9 @@ namespace Farmacia.Services
 
         }
 
-        public static string crearPedido(Pedido pedido)
+        public static PedidoResponse crearPedido(Pedido pedido)
         {
-            var respuesta = ApiHelper.Post<string>("/inventario/pedidos", pedido);
+            var respuesta = ApiHelper.Post<PedidoResponse>("/inventario/pedidos", pedido);
             return respuesta;
 
         }

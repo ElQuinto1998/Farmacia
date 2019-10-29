@@ -8,9 +8,10 @@
 
     <StackLayout>
         <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
+        <Label Text="Somos RappiFarmacia" 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
+        <Image Source="medi.png"/>
     </StackLayout>
 
 </ContentPage>

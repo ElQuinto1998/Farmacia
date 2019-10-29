@@ -7,25 +7,20 @@
              x:Class="Farmacia.Views.DomiciliosPage">
     <StackLayout>
         <ListView x:Name="ListaMedicamentos" HasUnevenRows="True" ItemSelected="ListaMedicamentos_ItemSelected">
-        <ListView.ItemTemplate>
-            <DataTemplate>
-                <ViewCell>
-                    <StackLayout Orientation="Horizontal" Spacing="10">
-                        <Image Source="medi.png" WidthRequest="100" HeightRequest="80"/>
-                        <StackLayout Orientation="Vertical">
-                            <Label Text="name"/>
-                            <Label Text="{Binding name}" HorizontalOptions="EndAndExpand"/>
-                            <StackLayout Orientation="Horizontal">
-                                <Label Text="Precio"/>
-                                <Label Text="{Binding salePrice}" HorizontalOptions="EndAndExpand"/>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal" Padding="10">
+                            <StackLayout Orientation="Vertical">
+                                <Label Text="{Binding name, StringFormat='Nombre: {0}'}" TextColor="Gray"></Label>
+                                <Label Text="{Binding salePrice, StringFormat='Precio: ${0}'}" TextColor="Red"></Label>
                             </StackLayout>
+                            <Image Source="medi.png" HeightRequest="30" WidthRequest="50" HorizontalOptions="EndAndExpand"></Image>
                         </StackLayout>
-                    </StackLayout>
-                </ViewCell>
-            </DataTemplate>
-        </ListView.ItemTemplate>
-    </ListView>
-        <Entry x:Name="cantidad" Placeholder="Cantidad"/>
-        <Button Text="Continuar" Clicked="Button_Clicked"/>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button Text="Continuar" Clicked="Button_Clicked" BackgroundColor="#909CD1" Padding="10"/>
     </StackLayout>
 </ContentPage>

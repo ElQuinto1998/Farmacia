@@ -4,10 +4,11 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="Farmacia.Views.ResumenPedidoPage">
+             x:Class="Farmacia.Views.ResumenPedidoPage"
+             Title="Resumen pedido">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Resumen Pedido"
+            <Button Text="Realizar pedido" Clicked="hacer_pedido"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>
