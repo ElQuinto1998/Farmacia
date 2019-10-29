@@ -6,7 +6,8 @@
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <application android:label="Farmacia.Android" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/icon" android:debuggable="true">
-    <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/icon" android:label="Farmacia" android:theme="@style/MainTheme" android:name="md5f78bbdc7ca43d0aac7990b441e58e8ec.MainActivity">
+    <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/icon" android:label="Farmacia" android:theme="@style/MainTheme" android:name="md5f78bbdc7ca43d0aac7990b441e58e8ec.MainActivity" />
+    <activity android:noHistory="true" android:theme="@style/Theme.Splash" android:name="md5f78bbdc7ca43d0aac7990b441e58e8ec.SplashActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

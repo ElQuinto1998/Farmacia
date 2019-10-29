@@ -531,3 +531,9 @@ C:\Movil\Farmacia\Farmacia.Android\obj\Debug\90\android\assets\System.Security.C
 C:\Movil\Farmacia\Farmacia.Android\obj\Debug\90\android\assets\System.Security.Cryptography.Cng.dll
 C:\Movil\Farmacia\Farmacia.Android\obj\Debug\90\android\assets\System.Security.Cryptography.Primitives.dll
 C:\Movil\Farmacia\Farmacia.Android\obj\Debug\90\android\assets\System.Text.Encoding.dll
+C:\Movil\Farmacia\Farmacia.Android\obj\Debug\90\res\drawable\marvel.png
+C:\Movil\Farmacia\Farmacia.Android\obj\Debug\90\android\src\md5f78bbdc7ca43d0aac7990b441e58e8ec\SplashActivity.java
+C:\Movil\Farmacia\Farmacia.Android\obj\Debug\90\res\drawable\splashscreen.xml
+C:\Movil\Farmacia\Farmacia.Android\obj\Debug\90\res\drawable\inicio.gif
+C:\Movil\Farmacia\Farmacia.Android\obj\Debug\90\res\drawable\log.png
+C:\Movil\Farmacia\Farmacia.Android\obj\Debug\90\res\drawable\splash.png
