@@ -9,9 +9,9 @@
     <StackLayout>
         <!-- Place new controls here -->
         <Label Text="Somos RappiFarmacia" 
-           HorizontalOptions="Center"
+           HorizontalOptions="CenterAndExpand"
            VerticalOptions="CenterAndExpand" />
-        <Image Source="medi.png"/>
+        <Image Source="medi.png" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
     </StackLayout>
 
 </ContentPage>

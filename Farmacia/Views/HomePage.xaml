@@ -3,8 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-                  xmlns:pages="clr-namespace:Farmacia.Views"
-                  mc:Ignorable="d"
+             xmlns:i18n="clr-namespace:Farmacia.Helpers"
+             xmlns:pages="clr-namespace:Farmacia.Views"
+             mc:Ignorable="d"
              x:Class="Farmacia.Views.PedidosPage"
                   Title="Tienda"
                   NavigationPage.HasNavigationBar="False">
@@ -13,9 +14,9 @@
         <ContentPage Title="Menu">
             <StackLayout Orientation="Vertical" Padding="10">
                 <Button Text="Inicio" BackgroundColor="#EBB972" TextColor="White" Clicked="main_page"/>
-                <Button Text="Crear pedido" BackgroundColor="#168087" TextColor="White" Clicked="crear_pedido"/>
+                <Button Text="Crear Pedido" BackgroundColor="#168087" TextColor="White" Clicked="crear_pedido"/>
                 <Button Text="Mis Pedidos" BackgroundColor="#1C6909" TextColor="White" Clicked="pedidos"/>
-                <Button Text="Salir" BackgroundColor="#A0330E" TextColor="White" Clicked="cerrar_sesion"/>
+                <Button Text="alir" BackgroundColor="#A0330E" TextColor="White" Clicked="cerrar_sesion"/>
             </StackLayout>
         </ContentPage>
     </MasterDetailPage.Master>
@@ -26,5 +27,4 @@
             </x:Arguments>
         </NavigationPage>
     </MasterDetailPage.Detail>
-
 </MasterDetailPage>

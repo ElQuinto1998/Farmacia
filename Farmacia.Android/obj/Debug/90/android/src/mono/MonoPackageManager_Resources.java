@@ -11,6 +11,8 @@ public class MonoPackageManager_Resources {
 		"Microsoft.IdentityModel.Logging.dll",
 		"Microsoft.IdentityModel.Tokens.dll",
 		"Newtonsoft.Json.dll",
+		"Plugin.Multilingual.Abstractions.dll",
+		"Plugin.Multilingual.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",

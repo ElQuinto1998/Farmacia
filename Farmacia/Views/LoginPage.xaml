@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:i18n="clr-namespace:Farmacia.Helpers"
              mc:Ignorable="d"
              x:Class="Farmacia.Views.LoginPage">
     <Grid>
@@ -13,7 +14,7 @@
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
-            <Label Text="Bienvenido a RappiFarma"
+            <Label Text="Bienvenido A RappiFarma"
                    Margin="20"
                    TextColor="White"
                    FontSize="Large"

@@ -49,7 +49,7 @@ namespace Farmacia.Views
             }
             else
             {
-                await DisplayAlert("Ops!", "Campos requeridos", "OK");
+                await DisplayAlert("Ops!", "CamposRequeridos", "OK");
             }
         }
     }

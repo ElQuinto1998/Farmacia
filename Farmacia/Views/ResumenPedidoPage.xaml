@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:i18n="clr-namespace:Farmacia.Helpers"
              mc:Ignorable="d"
              x:Class="Farmacia.Views.ResumenPedidoPage"
              Title="Resumen pedido">
@@ -74,7 +75,7 @@
             </ListView.Footer>
         </ListView>
         <StackLayout>
-            <Button Text="Realizar pedido" BackgroundColor="#556FE1" Clicked="hacer_pedido"/>
+            <Button Text= "Realizar Pedido" BackgroundColor="#556FE1" Clicked="hacer_pedido"/>
         </StackLayout>
     </StackLayout>
 </ContentPage>

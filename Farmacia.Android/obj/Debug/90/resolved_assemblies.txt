@@ -10,6 +10,8 @@ C:\Movil\Farmacia\Farmacia.Android\obj\Debug\90\android\assets\Microsoft.Identit
 C:\Movil\Farmacia\Farmacia.Android\obj\Debug\90\android\assets\Mono.Android.dll
 C:\Movil\Farmacia\Farmacia.Android\obj\Debug\90\android\assets\mscorlib.dll
 C:\Movil\Farmacia\Farmacia.Android\obj\Debug\90\android\assets\Newtonsoft.Json.dll
+C:\Movil\Farmacia\Farmacia.Android\obj\Debug\90\android\assets\Plugin.Multilingual.Abstractions.dll
+C:\Movil\Farmacia\Farmacia.Android\obj\Debug\90\android\assets\Plugin.Multilingual.dll
 C:\Movil\Farmacia\Farmacia.Android\obj\Debug\90\android\assets\System.Core.dll
 C:\Movil\Farmacia\Farmacia.Android\obj\Debug\90\android\assets\System.dll
 C:\Movil\Farmacia\Farmacia.Android\obj\Debug\90\android\assets\System.IO.Compression.dll
@@ -80,4 +82,5 @@ C:\Movil\Farmacia\Farmacia.Android\obj\Debug\90\android\assets\System.Runtime.Ex
 C:\Movil\Farmacia\Farmacia.Android\obj\Debug\90\android\assets\System.Text.Encoding.dll
 C:\Movil\Farmacia\Farmacia.Android\obj\Debug\90\android\assets\System.Runtime.InteropServices.dll
 C:\Movil\Farmacia\Farmacia.Android\obj\Debug\90\android\assets\System.Linq.dll
+C:\Movil\Farmacia\Farmacia.Android\obj\Debug\90\android\assets\System.Globalization.dll
 C:\Movil\Farmacia\Farmacia.Android\obj\Debug\90\android\assets\Mono.Security.dll

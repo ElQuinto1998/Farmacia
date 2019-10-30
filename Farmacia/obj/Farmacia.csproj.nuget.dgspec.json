@@ -129,6 +129,10 @@
               "target": "Package",
               "version": "[12.0.2, )"
             },
+            "Plugin.Multilingual": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.2.0, )"
