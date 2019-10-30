@@ -6,11 +6,75 @@
              mc:Ignorable="d"
              x:Class="Farmacia.Views.ResumenPedidoPage"
              Title="Resumen pedido">
-    <ContentPage.Content>
-        <StackLayout>
-            <Button Text="Realizar pedido" Clicked="hacer_pedido"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+
+    <StackLayout Padding="5" >
+        <StackLayout Orientation="Vertical">
+            <Grid >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Label Grid.Row="0"
+                           Grid.Column="0" FontAttributes="Bold"
+                           Text="Medicamento"
+                            VerticalOptions="Center"
+                                   HorizontalOptions="Center"/>
+                <Label Grid.Row="0"
+                           Grid.Column="1" FontAttributes="Bold"
+                           Text="Cantidad"
+                            VerticalOptions="Center"
+                                   HorizontalOptions="Center"/>
+                <Label Grid.Row="0"
+                           Grid.Column="2" FontAttributes="Bold"
+                           Text="Precio"
+                            VerticalOptions="Center"
+                                   HorizontalOptions="Center"/>
+            </Grid>
         </StackLayout>
-    </ContentPage.Content>
+        <ListView x:Name="lvt_pedidos" HasUnevenRows="True">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Grid Padding="5" >
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*" />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+                                <Label Grid.Row="0"
+                           Grid.Column="0"
+                           Text="{Binding name}"
+                           VerticalOptions="Center"
+                                   HorizontalOptions="Center"/>
+                                <Label Grid.Row="0"
+                           Grid.Column="1"
+                           Text="{Binding quantity}"
+                            VerticalOptions="Center"
+                                   HorizontalOptions="Center"/>
+                                <Label Grid.Row="0"
+                           Grid.Column="2"
+                           Text="{Binding price, StringFormat='${0}'}"
+                            VerticalOptions="Center"
+                                   HorizontalOptions="Center"/>
+                            </Grid>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+            <ListView.Footer>
+                <Label x:Name="total" Text="Total: $" HorizontalOptions="Center" FontAttributes="Bold" VerticalOptions="Center" TextColor="Red"/>
+            </ListView.Footer>
+        </ListView>
+        <StackLayout>
+            <Button Text="Realizar pedido" BackgroundColor="#556FE1" Clicked="hacer_pedido"/>
+        </StackLayout>
+    </StackLayout>
 </ContentPage>

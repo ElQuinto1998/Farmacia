@@ -21,6 +21,10 @@ namespace Farmacia.Views
 
             pedido1 = pedido;
 
+            lvt_pedidos.ItemsSource = pedido.items;
+
+            total.Text += pedido.total.ToString();
+
         }
 
         private async void hacer_pedido(object sender, EventArgs e)

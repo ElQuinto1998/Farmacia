@@ -57,7 +57,7 @@ namespace Farmacia.Views
                     itemPedidos.Add(itemPedido);
                     pedido.total += (itemPedido.price * itemPedido.quantity);
 
-                    await DisplayAlert("Genail!", "Medicamento agregado", "Aceptar");
+                    await DisplayAlert("Genial!", "Medicamento agregado", "Aceptar");
 
                 }
                 else
@@ -75,7 +75,7 @@ namespace Farmacia.Views
                 itemPedidos.Add(itemPedido);
                 pedido.total += (itemPedido.price * itemPedido.quantity);
 
-                await DisplayAlert("Genail!", "Medicamento agregado", "Aceptar");
+                await DisplayAlert("Genial!", "Medicamento agregado", "Aceptar");
 
             }
 
