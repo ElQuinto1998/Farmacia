@@ -16,7 +16,7 @@
                 <Button Text="Inicio" BackgroundColor="#EBB972" TextColor="White" Clicked="main_page"/>
                 <Button Text="Crear Pedido" BackgroundColor="#168087" TextColor="White" Clicked="crear_pedido"/>
                 <Button Text="Mis Pedidos" BackgroundColor="#1C6909" TextColor="White" Clicked="pedidos"/>
-                <Button Text="alir" BackgroundColor="#A0330E" TextColor="White" Clicked="cerrar_sesion"/>
+                <Button Text="Salir" BackgroundColor="#A0330E" TextColor="White" Clicked="cerrar_sesion"/>
             </StackLayout>
         </ContentPage>
     </MasterDetailPage.Master>
